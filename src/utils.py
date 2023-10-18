@@ -37,18 +37,6 @@ class Category:
         self.__products.append(product_item)
 
 
-# class Store:
-#
-#     def __init__(self, categories):
-#         self.__categories = categories
-#
-#     @property
-#     def categories(self):
-#         tmp = []
-#         for cat in self.__categories:
-#             if cat.__is_active:
-#                 tmp.append(cat)
-#         return tmp
 
 
 if __name__ == '__main__':
